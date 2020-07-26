@@ -1,0 +1,14 @@
+.box {
+    background-color: hotpink;
+    padding: 10px;
+    border: 6px indigo solid; 
+}
+#fg1 {
+    color: lightcoral;
+    background-color: lightpink;
+    padding: 25px;
+    border: 20px maroon solid;
+    left: 50px;
+   right: 50px;
+    
+}
