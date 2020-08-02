@@ -1,0 +1,110 @@
+html, body {
+    margin: 0;
+}
+header {
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 45px;
+    border: 1px solid green;
+    position: absolute;
+    top: 5px;
+    margin-left: 5% ;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 3px;
+}
+li {
+    float: left;
+    padding: 10px 10px 10px 10px;
+}
+li:hover {
+    background-color: rgb(16, 240, 8)
+}
+#imagem {
+    background : url("folhas.jpg");
+    height: 60%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color: white;
+    padding-top: 10%;
+    font-size: 40px;
+    line-height: 0.6;
+}
+#sub {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid chartreuse;
+    text-shadow: 1px 1px blueviolet;
+}
+#ação {
+    color: rgb(253, 253, 253);
+    border: 1px white solid;
+    padding: 2.5px 5px 5px 5px;  
+}
+.icone {
+    width: 150px;
+    float: left;
+    position: relative;
+    padding: 0 5%;
+}
+.top {
+    background-color: #f7f7f7;
+    padding: 100px;
+}
+#introdução {
+    padding: 50px;
+    float: left;
+}
+.tipo {
+    width: 90%;
+    height: 50%;
+}
+#tipo {
+    width: 50%;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+section {
+    padding: 2opx;
+    float: left;
+}
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+.coluna3 {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+}
+.dois {
+    width: 35%;
+}
+#one {
+    width: 100%;
+}
+footer {
+    background-color: chartreuse;
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
