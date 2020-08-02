@@ -1,0 +1,77 @@
+
+<html>
+       <head>
+           <title>Meu primeiro site- A voz da natureza</title>
+           <link rel="stylesheet" href="estilo.css">
+       </head>
+       <body>
+              <header>   
+                        <img id="logo" src="img/logo.jpg" alt="Voz da natureza">
+                    <ul id="menu"> 
+                        <li><a href="#projeto">Projeto</a></li>
+                        <li><a href="#introdução">Formas de ajudar</a></li>
+                        <li><a href="#ecopontos"> Pedem ajuda</a></li>
+                        <li><a href="#SOBRE"> Sobre</a> </li>
+                    </ul>
+              </header>
+           <div id="imagem"> 
+               <h1 id="titulo" > A voz da natureza </h1>
+               <h2 id="sub" > Pare um só minuto do seu tempo para ouvir a voz da natureza</h2>
+               <a id="ação" href="http://www.microsoft.com" target="_blanck"> Conhecer </a>
+           </div>
+           <section id="projeto" class="top"> 
+                   <div class="coluna"> 
+                       <iframe width="100%" height="315" src="https://www.youtube.com/embed/gD4nXzMXA_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   </div>
+                   <div class="coluna"> 
+                       <h3 class="centralizado"> Projeto </h3>
+                       <p class="justificado"> Ao ouvir os sons que a natureza nos oferece, podemos relaxar, meditar e contemplar as belezas naturais nos oferecidas sem gusto algum.</p>
+                       <p class="justificado"> Podemos pegar um pouco do nosso tempo e nos dedicar a cuidar da nossa natureza, isso só irá nos ajudar a ter uma boa melhora na qualidade da nossa vida no futuro. </p>
+                       <p class="justificado"> Ao cuidarmos do nosso futuro hoje temos a garantia de que ele irá sem duvidas acontecer.</p>                  
+                    </div>
+           </section>
+           <section id="introdução" > 
+                <h3 class="centralizado"> Formas de ajudar nossa natureza </h3>
+             <div class="coluna3 centralizado justificado"> 
+                 <img class="icone" src="img/retornavel.png" alt="produtos retornaveis" />
+                 <h4> Reciclagem </h4>
+                  <p> A reciclagem correta ajudará nosso planeta a oferecer melhor qualidade de vida a seus habitantes, mas para isso devemos ter noção de como se faz a reciclagem. </p>
+             </div>
+             <div class="coluna3 centralizado justificado">  
+                 <img class="icone" src="img/lixeiras.png" alt="separação correta do lixo" />
+                 <h4> Separação correta do lixo </h4>
+                 <p> Para cada cor de lixiera se tem um tipo específico de lixo. Ao fazer a separação correta do lixo doméstico podemos fazer com que o número de enchentes diminua em 90% nas grandes cidades. </p>
+             </div>
+             <div class="coluna3 centralizado justificado"> 
+                 <img class="icone" src="img/lixo toxico.png" alt="sepação do lixo tóxico"  />
+                 <h4> Separação do lixo tóxico</h4>
+                 <p> Ao descartar produtos como baterias de celular, pilhas usadas, lâmpadas queimadas e qualquer outro tipo de produto que seja tóxico a saúde, deve-se descartar em pontos de coleta ou lugares proprios destinados a estes produtos.</p>
+             </div>
+            </section>
+           <section id="ecopontos" class="top" >
+                <h3 class="centralizado"> Lugares que pedem ajuda </h3>
+               <div class="coluna dois centralizado"> 
+                    <img class="tipo" src="img/aguas.jpeg" alt="aguas" />
+                    <p> Mares, rios, riachos, corregos e arroios.</p>
+               </div>
+               <div class="coluna dois centralizado">     
+                    <img class="tipo" src="img/praia.jpg" alt="praias" />
+                    <p> Praias e ilhas, desde as mais grande as mais pequenas.</p>
+               </div>
+            </section>
+            <section id="SOBRE" class="top" >
+                <div class="coluna dois">
+                   <h3> Sobre mim </h3>
+                   <p> Aline Kuff</p>
+                   <p class="justificado"> Tenho 21 anos, sou formada em administração de empresas e também no Magistério, estou cursando o primeiro ano em Pedagogia, sou professora do ensino fundamental e Educação Infantil. </p>
+               </div>
+               <div class="coluna dois">
+                  <img id="one" src="img/macbook-pro-on-brown-wooden-table-2312369.jpg"  alt="notebook" />
+               </div>
+            </section>
+            <footer class="centralizado"> 
+                <h3> Meu primeiro site </h3>
+                <p> Projeto desenvolvido durante o curso "Meu primeiro site", desenvolvido pela Junior Achievement Brasil e Microsoft. </p>
+            </footer>
+       </body>
+</html>
